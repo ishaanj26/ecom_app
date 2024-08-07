@@ -12,14 +12,10 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     //We are using getx hence we change materialapp to getmaterial app
-    return GetMaterialApp(
+    return const GetMaterialApp(
       debugShowCheckedModeBanner: false,
       title: "MoonLit ECommerce App",
-      theme: ThemeData(
-          scaffoldBackgroundColor: Colors.transparent,
-          appBarTheme: const AppBarTheme(backgroundColor: Colors.transparent),
-          fontFamily: "Sans-regular"),
-      home: const SplashScreen(),
+      home: SplashScreen(),
     );
   }
 }

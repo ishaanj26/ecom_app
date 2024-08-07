@@ -38,7 +38,7 @@ class _ConfirmationState extends State<Confirmation> {
                   child: Column(
                     crossAxisAlignment: CrossAxisAlignment.start,
                     children: [
-                      Text("Password Rest",
+                      Text("Password Reset",
                           style: GoogleFonts.montserrat(
                             fontSize: 22,
                             color: Colors.black,

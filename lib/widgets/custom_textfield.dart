@@ -6,7 +6,8 @@ Widget customTextField(
     String? title,
     required TextEditingController controller,
     bool obscureText = false,
-    Widget? suffixIcon}) {
+    Widget? suffixIcon,
+    void Function(String)? onChanged}) {
   return Column(
     crossAxisAlignment: CrossAxisAlignment.start,
     children: [
@@ -30,6 +31,7 @@ Widget customTextField(
               color: Colors.grey,
               fontSize: 14,
             ),
+            
             hintText: hint,
             suffixIcon: suffixIcon,
             isDense: true,
@@ -49,6 +51,7 @@ Widget customTextField(
                   width: 0.5, // You can adjust the width as needed
                 )),
           ),
+          onChanged: onChanged,
         ),
       ),
       const SizedBox(height: 5),

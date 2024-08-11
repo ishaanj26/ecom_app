@@ -1,4 +1,4 @@
-import '../screens/home_screen.dart';
+import '../home_screen/home.dart';
 import '../../widgets/buttons.dart';
 import '../../widgets/custom_textfield.dart';
 import 'package:flutter/material.dart';
@@ -192,7 +192,7 @@ class _SignupScreenState extends State<SignupScreen> {
                                       _emailError == null &&
                                       _passwordError == null &&
                                       isCheck) {
-                                    Get.to(() => const HomeScreen());
+                                    Get.to(() => const Home());
                                   }
                                 },
                                 textColor: Colors.white),

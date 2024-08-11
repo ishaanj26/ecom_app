@@ -1,5 +1,5 @@
 import 'package:ecommerce_app/views/auth_screen/new_pass.dart';
-import 'package:ecommerce_app/views/screens/home_screen.dart';
+import 'package:ecommerce_app/views/home_screen/home.dart';
 import 'package:ecommerce_app/widgets/buttons.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';

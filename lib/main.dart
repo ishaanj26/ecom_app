@@ -1,3 +1,4 @@
+import 'package:ecommerce_app/views/home_screen/home.dart';
 import 'views/splash_screen/splash_screen.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
@@ -15,7 +16,7 @@ class MyApp extends StatelessWidget {
     return const GetMaterialApp(
       debugShowCheckedModeBanner: false,
       title: "MoonLit ECommerce App",
-      home: SplashScreen(),
+      home: Home(),
     );
   }
 }

@@ -1,7 +1,7 @@
 import 'package:ecommerce_app/views/auth_screen/forgot_pass.dart';
 
 import 'signup_screen.dart';
-import '../screens/home_screen.dart';
+import '../home_screen/home.dart';
 import '../../widgets/buttons.dart';
 import '../../widgets/custom_textfield.dart';
 import 'package:flutter/material.dart';
@@ -100,7 +100,7 @@ class _LoginScreenState extends State<LoginScreen> {
                           title: "Login",
                           textColor: Colors.white,
                           onPress: () {
-                            Get.to(() => const HomeScreen());
+                            Get.to(() => const Home());
                           }),
                       const SizedBox(height: 15),
                       Row(

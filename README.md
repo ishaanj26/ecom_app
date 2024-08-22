@@ -1,6 +1,6 @@
-# Mojo Pizza App
+# Building Moonlit, Our Fashion-Forward E-Commerce App
 
-Mojo Pizza App MVP is a mobile application, an attempt to clone of Mojo Pizza App, built with Flutter, featuring Firebase Authentication and Firestore integration. The app offers a seamless pizza ordering experience with user authentication, menu browsing, cart management, and payment options.
+ Moonlit”, Inspired by the idea that just as moonlight reaches far and wide, our app would bring whatever you’re looking for, no matter the distance, right to your fingertips. Using Firebase, Flutter, and Firestore Database, we built Moonlit — a user-friendly app that delivers an exceptional shopping experience.
 
 ## Features
 
@@ -42,10 +42,10 @@ Mojo Pizza App MVP is a mobile application, an attempt to clone of Mojo Pizza Ap
 
 ## Installation
 
-To run Mojo Pizza App locally, follow these steps:
+To run MoonLit App locally, follow these steps:
 
 1. Clone the repository: `git clone https://github.com/Pulkito4/Mojo_Pizza_App_MVP.git`
-2. Navigate to the project directory: `cd Mojo_Pizza_App_MVP`
+2. Navigate to the project directory: `cd ecom_app`
 3. Install dependencies: `flutter pub get`
 4. Run the app: `flutter run`
 
@@ -59,4 +59,4 @@ This project is licensed under the [MIT License](LICENSE).
 
 ## Contributors 
 
-Pulkit Goyal | Mayank Goel | Tanishka Goel | Devansh Bansal
+Ishaan Jain | Rishab Negi | Tarun Pandore 

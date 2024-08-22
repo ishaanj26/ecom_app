@@ -44,8 +44,8 @@
 
 To run MoonLit App locally, follow these steps:
 
-1. Clone the repository: `git clone https://github.com/Pulkito4/Mojo_Pizza_App_MVP.git`
-2. Navigate to the project directory: `cd ecom_app`
+1. Clone the repository: `git clone https://github.com/ishaanj26/ecom_app`
+2. Navigate to the project directory: `cd ecom_app_01`
 3. Install dependencies: `flutter pub get`
 4. Run the app: `flutter run`
 

@@ -1,44 +1,6 @@
 # Building Moonlit, Our Fashion-Forward E-Commerce App
 
- Moonlit”, Inspired by the idea that just as moonlight reaches far and wide, our app would bring whatever you’re looking for, no matter the distance, right to your fingertips. Using Firebase, Flutter, and Firestore Database, we built Moonlit — a user-friendly app that delivers an exceptional shopping experience.
-
-## Features
-
-### Authentication
-- **Splash Screen**: Displays a linear loading progress indicator before navigating to the sign-up screen.
-- **Sign-Up Options**: Users can sign up using their phone number (using `verifyPhoneNumber` from Firebase Auth) or Google Sign-In. Existing users are not duplicated in Firestore.
-- **OTP Verification**: Users receive an OTP via Firebase Auth for phone number authentication.
-
-### Home Screen
-- **Bottom Navigation Bar**: Includes five tabs—Home, Offers, EatClub, Refer, and Account.
-  - **Home Tab**: Displays the user's current address (fetched using the Geolocator package) and clickable cards leading to the menu screen.
-  - **Account Tab**: Shows the user's name and email address fetched from Firestore.
-  - **Offers, EatClub, and Refer Tabs**: Contain basic static data.
-
-### Menu Screen
-- **Search Bar**: Present but not yet functional.
-- **Veg Filter**: Present but not yet functional.
-- **Food Categories**: Scrollable list of tabs for different food categories. Clicking a tab renders a list of pizza cards with details fetched from Firestore.
-- **Add to Cart**: Each pizza card has an "Add" button to add items to the cart. If an item is already in the cart, the button changes accordingly.
-
-### Cart Screen
-- **Pizza List**: Displays all pizzas added to the cart with buttons to increase or decrease quantity.
-- **Place Order Button**: Redirects to the payment methods screen.
-  - **Payment Methods**: 
-    - **UPI**: Works only on Android devices using the `pay_india` package.
-    - **Razorpay**: Integration with Razorpay payment gateway (test mode/demo version).
-
-### State Management
-- **BLoC**: All state management is handled using the BLoC pattern.
-- **Enterprise Architecture**: Code structured according to enterprise architecture standards.
-
-## Scope of Improvement
-
-- **Geolocation for Dynamic Address Fetching**: Enhance geolocation implementation to fetch dynamic user locations.
-- **Search Functionality**: Implement the search bar functionality on the menu screen.
-- **Veg Filter**: Develop and integrate the veg filter feature.
-- **Payment Integration**: Move from test mode to live mode for Razorpay integration and expand UPI functionality to iOS.
-- **User Experience**: Improve UI/UX across the app for a more intuitive user experience.
+ "Moonlit”, Inspired by the idea that just as moonlight reaches far and wide, our app would bring whatever you’re looking for, no matter the distance, right to your fingertips. Using Firebase, Flutter, and Firestore Database, we built Moonlit — a user-friendly app that delivers an exceptional shopping experience.
 
 ## Installation
 

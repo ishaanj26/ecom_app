@@ -1,0 +1,54 @@
+name: moonlit
+description: "Moonlit is your ultimate destination for the latest trends in fashion, inspired by the serene beauty of the moon and the calming hues of blue. Whether you’re looking for chic dresses, stylish accessories, or the perfect pair of shoes, we’ve got you covered. Our app offers a seamless shopping experience with a wide range of products from top brands and emerging designers."
+publish_to: "none"
+version: 1.0.0
+
+environment:
+  sdk: ^3.5.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+  google_fonts: ^6.2.1
+  icons_plus: ^5.0.0
+  provider: ^6.1.2
+  fluttertoast: ^8.2.5
+  razorpay_flutter: ^1.3.7
+  uuid: ^4.4.2
+  get: ^4.6.6
+  auto_route: ^9.2.1+1
+  firebase_core: ^2.24.2
+  firebase_auth: ^4.16.0
+  cloud_firestore: ^4.14.0
+  firebase_storage: ^11.6.0
+  google_sign_in: ^6.2.1
+  firebase_database: ^10.4.0
+  badges: ^3.1.2
+  country_flags: ^3.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  assets:
+    - assets/tile/
+    - assets/kids/belt/
+    - assets/kids/jeans/
+    - assets/kids/shirt/
+    - assets/kids/shoes/
+    - assets/kids/watches/
+    - assets/men/belt/
+    - assets/men/jeans/
+    - assets/men/shirt/
+    - assets/men/shoes/
+    - assets/men/watches/
+    - assets/women/belt/
+    - assets/women/jeans/
+    - assets/women/dress/
+    - assets/women/shoes/
+    - assets/women/watches/
+    - assets/icon/
+
+  uses-material-design: true

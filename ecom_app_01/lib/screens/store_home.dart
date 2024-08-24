@@ -372,11 +372,13 @@ class StoreView extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     List<List<Product>> selectcategories = [demo];
-    List<Product> filteredProducts = products
-        .where((product) =>
-            product.category == category ||
-            product.title.toLowerCase().contains(category.toLowerCase()))
-        .toList();
+    List<Product> filteredProducts = category == "All"
+        ? products
+        : products
+            .where((product) =>
+                product.category == category ||
+                product.title.toLowerCase().contains(category.toLowerCase()))
+            .toList();
     int selectedIndex = 0;
 //change here
     return Column(
@@ -398,31 +400,6 @@ class StoreView extends StatelessWidget {
                 ),
               ],
             ),
-            // child: SingleChildScrollView(
-            //   scrollDirection: Axis.horizontal,
-            //   child: SizedBox(
-            //     height: 260,
-            //     width:
-            //         screenWidth * 3, // Constrains the width to the screen width
-            //     child: GridView.builder(
-            //       padding: const EdgeInsets.symmetric(horizontal: 20), //here
-            //       physics: const NeverScrollableScrollPhysics(),
-            //       shrinkWrap: true,
-            //       gridDelegate: const SliverGridDelegateWithFixedCrossAxisCount(
-            //         crossAxisCount: 6,
-            //         childAspectRatio: 0.75,
-            //         crossAxisSpacing: 20,
-            //         mainAxisSpacing: 20,
-            //       ),
-            //       itemCount: filteredProducts.length,
-            //       itemBuilder: (context, index) {
-            //         return ProductCard(
-            //           product: filteredProducts[index],
-            //         );
-            //       },
-            //     ),
-            //   ),
-            // ),
             child: SingleChildScrollView(
               scrollDirection: Axis.horizontal,
               child: SizedBox(

@@ -300,7 +300,7 @@ final List<Product> all = [
     title: "Pink Solid Waist Belt",
     description:
         "closure : Slider Buckle\ncolor : Pink\nmaterial : Vegan Leather\npattern : Solid\nCare : Wipe with a clean, dry cloth to remove dust",
-    image1: "assets/women/belt/Women_belt_9a.webp",
+    image1: "assets/women/belt/Women_belt_9a.png",
     price: 499,
     seller: "Haute sauce",
     category: "Belt",
@@ -409,7 +409,7 @@ final List<Product> all = [
         "Jacob & Co. Opera Godfather Musical Watch Black DLC Grade 5 Titanium",
     description:
         "Full Specification:\nBrand: Jacob & Co.\nCollection :Epic X\nSeries: Opera Godfather Musical Watch Black DLC Grade 5 Titanium\nModel No: EX820.43.BD.BD.ABRUA\nMovement:\nMovement: Manual Winding\nCalibre: JCAM45\nCase: \nCase Size: 44 mm\nCase Shape: Round\nCase Material: Rose Gold\nCase Back: See-through Case Back\nGlass Material: Sapphire Crystal\nDial: Dial Colour Skeleton \nStrap:\nStrap Material: Rubber\nStrap Colour: Black\nOther: Precious Stone On Case, Dial & Lugs\nGender: Men\nWater Resistance (M): 100\nWarranty Period: 2 Years\nCountry of Origin: Switzerland",
-    image1: "assets/men/watches/Men_watch_10.webp",
+    image1: "assets/men/watches/Men_watch_10b.webp",
     price: 37400000,
     seller: "Ethos",
     category: "Watch",
@@ -481,7 +481,7 @@ final List<Product> all = [
     title: "Dolce & Gabbana Navy Blue Lux Leather Belt",
     description:
         "This belt features a strap that is 40 mm (1.6 inches) in height, with a branded buckle made of ruthenium-plated metal. It includes a dome popper fastening beneath the buckle and a belt loop stop, with nickel-free buckles and hardware. The country of origin is Italy. The importer and packer is Prive Luxury Limited, located at B-25, Noida Sector-3, UP. Delivery and return policies state that no express delivery is available, and a minimum bill value of 5000 is required for free shipping. No returns or exchanges will be entertained on sale items. The delivery time for products can take up to 7-10 business days.",
-    image1: "assets/kids/belt/kid_belt_4a.png.jpg",
+    image1: "assets/kids/belt/kid_belt_4a.png",
     price: 13875,
     seller: "Lespetits",
     category: "Belt",
@@ -2014,7 +2014,7 @@ final List<Product> all = [
     title: "Textured Black Leather Belt",
     description:
         "Add a touch of luxury to your ensemble with our Full-Grain Leather Belt, expertly handcrafted for the sophisticated gentleman. Constructed from premium full-grain leather, this belt epitomizes timeless elegance and superior craftsmanship for a look that transcends trends.\nSalient features:\nMaterial: Buffalo Leather\nColour: Glossy Dark Brown\nIntricately handcrafted by leather craftsmen to ensure utmost finishing.\nAdjustable buckle closure",
-    image1: "assets/men/belt/Men_belt_9.webp",
+    image1: "assets/men/belt/Men_belt_9a.png",
     price: 999,
     seller: "Mahe Tri",
     category: "Belt",
@@ -2026,7 +2026,7 @@ final List<Product> all = [
     title: "Drover Leather Men's Belt",
     description:
         "Redefine your accessories collection with our handcrafted Full Grain Leather Belt, expertly crafted for the modern connoisseur. Crafted from premium full grain leather, each belt is a testament to superior craftsmanship and timeless style, making it the perfect finishing touch to any ensemble.\nSalient Features:\nMaterial: Buffalo Leather\nColour: Textured Brown and Black\nIntricately handcrafted by leather craftsmen to ensure utmost finishing.\nAdjustable buckle closure",
-    image1: "assets/men/belt/Men_belt_10.webp",
+    image1: "assets/men/belt/Men_belt_10b.webp",
     price: 999,
     seller: "Mahe Tri",
     category: "Belt",
@@ -2925,7 +2925,7 @@ final List<Product> kid = [
     title: "Dolce & Gabbana Navy Blue Lux Leather Belt",
     description:
         "This belt features a strap that is 40 mm (1.6 inches) in height, with a branded buckle made of ruthenium-plated metal. It includes a dome popper fastening beneath the buckle and a belt loop stop, with nickel-free buckles and hardware. The country of origin is Italy. The importer and packer is Prive Luxury Limited, located at B-25, Noida Sector-3, UP. Delivery and return policies state that no express delivery is available, and a minimum bill value of 5000 is required for free shipping. No returns or exchanges will be entertained on sale items. The delivery time for products can take up to 7-10 business days.",
-    image1: "assets/kids/belt/kid_belt_4a.png.jpg",
+    image1: "assets/kids/belt/kid_belt_4a.png",
     price: 13875,
     seller: "Lespetits",
     category: "Belt",
@@ -3481,7 +3481,7 @@ final List<Product> women = [
     title: "Pink Solid Waist Belt",
     description:
         "closure : Slider Buckle\ncolor : Pink\nmaterial : Vegan Leather\npattern : Solid\nCare : Wipe with a clean, dry cloth to remove dust",
-    image1: "assets/women/belt/Women_belt_9a.webp",
+    image1: "assets/women/belt/Women_belt_9a.png",
     price: 499,
     seller: "Haute sauce",
     category: "Belt",
@@ -4452,7 +4452,7 @@ final List<Product> men = [
     title: "Textured Black Leather Belt",
     description:
         "Add a touch of luxury to your ensemble with our Full-Grain Leather Belt, expertly handcrafted for the sophisticated gentleman. Constructed from premium full-grain leather, this belt epitomizes timeless elegance and superior craftsmanship for a look that transcends trends.\nSalient features:\nMaterial: Buffalo Leather\nColour: Glossy Dark Brown\nIntricately handcrafted by leather craftsmen to ensure utmost finishing.\nAdjustable buckle closure",
-    image1: "assets/men/belt/Men_belt_9.webp",
+    image1: "assets/men/belt/Men_belt_9.png",
     price: 999,
     seller: "Mahe Tri",
     category: "Belt",
@@ -4464,7 +4464,7 @@ final List<Product> men = [
     title: "Drover Leather Men's Belt",
     description:
         "Redefine your accessories collection with our handcrafted Full Grain Leather Belt, expertly crafted for the modern connoisseur. Crafted from premium full grain leather, each belt is a testament to superior craftsmanship and timeless style, making it the perfect finishing touch to any ensemble.\nSalient Features:\nMaterial: Buffalo Leather\nColour: Textured Brown and Black\nIntricately handcrafted by leather craftsmen to ensure utmost finishing.\nAdjustable buckle closure",
-    image1: "assets/men/belt/Men_belt_10.webp",
+    image1: "assets/men/belt/Men_belt_10b.webp",
     price: 999,
     seller: "Mahe Tri",
     category: "Belt",
@@ -5253,7 +5253,7 @@ final List<Product> men = [
         "Jacob & Co. Opera Godfather Musical Watch Black DLC Grade 5 Titanium",
     description:
         "Full Specification:\nBrand: Jacob & Co.\nCollection :Epic X\nSeries: Opera Godfather Musical Watch Black DLC Grade 5 Titanium\nModel No: EX820.43.BD.BD.ABRUA\nMovement:\nMovement: Manual Winding\nCalibre: JCAM45\nCase: \nCase Size: 44 mm\nCase Shape: Round\nCase Material: Rose Gold\nCase Back: See-through Case Back\nGlass Material: Sapphire Crystal\nDial: Dial Colour Skeleton \nStrap:\nStrap Material: Rubber\nStrap Colour: Black\nOther: Precious Stone On Case, Dial & Lugs\nGender: Men\nWater Resistance (M): 100\nWarranty Period: 2 Years\nCountry of Origin: Switzerland",
-    image1: "assets/men/watches/Men_watch_10.webp",
+    image1: "assets/men/watches/Men_watch_10b.webp",
     price: 37400000,
     seller: "Ethos",
     category: "Watch",

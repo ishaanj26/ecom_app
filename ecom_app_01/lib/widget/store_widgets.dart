@@ -275,69 +275,72 @@ class HomeTileRight extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     double width = MediaQuery.of(context).size.width - 40;
-    return Container(
-      decoration: BoxDecoration(color: bgColor),
-      child: SizedBox(
-        height: 150,
-        width: width,
-        child: Row(
-          children: [
-            Padding(
-              padding: const EdgeInsets.all(22),
-              child: Column(
-                mainAxisAlignment: MainAxisAlignment.center,
-                crossAxisAlignment: CrossAxisAlignment.start,
-                children: [
-                  Text(
-                    '$event Sale',
-                    style: GoogleFonts.quicksand(
-                        textStyle: const TextStyle(
-                            fontSize: 22, fontWeight: FontWeight.w800)),
-                  ),
-                  const SizedBox(
-                    height: 2,
-                  ),
-                  Text(
-                    surprise,
-                    style: GoogleFonts.quicksand(
-                        textStyle: const TextStyle(
-                            fontSize: 20, fontWeight: FontWeight.w900)),
-                  ),
-                  const SizedBox(
-                    height: 6,
-                  ),
-                  ElevatedButton(
-                    onPressed: () {
-                      Navigator.push(
-                          context,
-                          MaterialPageRoute(
-                              builder: (_) => StoreEvent(event, surprise,
-                                  option, bgColor, image1, index)));
-                    },
-                    style: ElevatedButton.styleFrom(
-                      backgroundColor: Colors.black,
-                      shape: RoundedRectangleBorder(
-                        borderRadius: BorderRadius.circular(6),
-                      ),
-                      minimumSize: const Size(100, 30),
-                    ),
-                    child: Text(
-                      option,
+    return GestureDetector(
+      onTap: () {
+        Navigator.push(
+            context,
+            MaterialPageRoute(
+                builder: (_) => StoreEvent(
+                    event, surprise, option, bgColor, image1, index)));
+      },
+      child: Container(
+        decoration: BoxDecoration(color: bgColor),
+        child: SizedBox(
+          height: 150,
+          width: width,
+          child: Row(
+            children: [
+              Padding(
+                padding: const EdgeInsets.all(22),
+                child: Column(
+                  mainAxisAlignment: MainAxisAlignment.center,
+                  crossAxisAlignment: CrossAxisAlignment.start,
+                  children: [
+                    Text(
+                      '$event Sale',
                       style: GoogleFonts.quicksand(
-                          textStyle: const TextStyle(color: Colors.white)),
+                          textStyle: const TextStyle(
+                              fontSize: 22, fontWeight: FontWeight.w800)),
                     ),
-                  ),
-                ],
+                    const SizedBox(
+                      height: 2,
+                    ),
+                    Text(
+                      surprise,
+                      style: GoogleFonts.quicksand(
+                          textStyle: const TextStyle(
+                              fontSize: 20, fontWeight: FontWeight.w900)),
+                    ),
+                    const SizedBox(
+                      height: 6,
+                    ),
+                    ElevatedButton(
+                      onPressed: () {},
+                      style: ElevatedButton.styleFrom(
+                        backgroundColor: Colors.black,
+                        shape: RoundedRectangleBorder(
+                          borderRadius: BorderRadius.circular(6),
+                        ),
+                        minimumSize: const Size(100, 30),
+                      ),
+                      child: Text(
+                        option,
+                        style: GoogleFonts.quicksand(
+                            textStyle: const TextStyle(color: Colors.white)),
+                      ),
+                    ),
+                  ],
+                ),
               ),
-            ),
-            const Spacer(),
-            Image.asset(
-              image1,
-              fit: BoxFit.fitHeight,
-              width: MediaQuery.of(context).size.width * 0.4,
-              height: MediaQuery.of(context).size.width * 0.5,
-            ),
-          ],
+              const Spacer(),
+              Image.asset(
+                image1,
+                fit: BoxFit.fitHeight,
+                width: MediaQuery.of(context).size.width * 0.4,
+                height: MediaQuery.of(context).size.width * 0.5,
+              ),
+            ],
+          ),
         ),
       ),
     );

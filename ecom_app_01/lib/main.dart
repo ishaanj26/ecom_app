@@ -56,18 +56,22 @@ class _MyAppState extends State<MyApp> {
           theme: ThemeData(
             textTheme: GoogleFonts.mulishTextTheme(),
           ),
-          home: FutureBuilder(
-            future: auth.authStateChanges().first,
-            builder: (context, snapshot) {
-              if (snapshot.connectionState == ConnectionState.done) {
-                if (snapshot.hasData) {
-                  return const BottomNavBar();
-                } else {
-                  return const SplashScreen();
-                }
-              } else {
-                return const SplashScreen();
-              }
+          home: StatefulBuilder(
+            builder: (context, setState) {
+              return FutureBuilder(
+                future: auth.authStateChanges().first,
+                builder: (context, snapshot) {
+                  if (snapshot.connectionState == ConnectionState.done) {
+                    if (snapshot.hasData) {
+                      return const BottomNavBar();
+                    } else {
+                      return const SplashScreen();
+                    }
+                  } else {
+                    return const SplashScreen();
+                  }
+                },
+              );
             },
           ),
         ),
